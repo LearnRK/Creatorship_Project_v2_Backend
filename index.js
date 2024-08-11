@@ -112,7 +112,6 @@ app.get("/api/data/randomorg", async (req, res) => {
 //     return res.status(500).json({msg: "some error occured"});
 //   }
 // })
-
 app.post("/appointme", async (req, res) => {
   const body = req.body;
   console.log(body);
